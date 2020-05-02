@@ -8,7 +8,7 @@ def loop_message_five_times(string)
   end
 end
 
-def loop_message_five_times(string, number)
+def loop_message_n_times(string, number)
 
   while number >= 1 do
     puts(string)
